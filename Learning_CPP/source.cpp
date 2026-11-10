@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-using  namespace std;
+using namespace std;
 
 int main()
 {
@@ -7,5 +7,16 @@ int main()
     cout << "Hello, C++!" << endl;
 
     // system("pause");
+
+    int a;
+    a = 10;
+
+    char b;
+    b = 'a';
+    
+    float c;
+    c = 3.14;
+
+    cout << a << "\n" << b << "\n" << c << endl;
     return 0;
 }
