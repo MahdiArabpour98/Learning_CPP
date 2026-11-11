@@ -1,76 +1,145 @@
-# =====================================
-# C++ Build Files
-# =====================================
+# C++ / Rider / Visual Studio / CMake
+# Place this file at the repository root.
 
-# Dependencies
-*.d
+# Build directories
+[Bb]uild/
+[Bb]uild-*/
+cmake-build-*/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+RelWithDebInfo/
+MinSizeRel/
+x64/
+x86/
+Win32/
+ARM/
+ARM64/
+[Bb]ld/
+/out/
 
-# Object Files
+# Object and dependency files
 *.o
 *.obj
 *.lo
 *.slo
+*.d
+*.idb
+*.ipdb
+*.iobj
 
-# Precompiled Headers
-*.gch
+# Precompiled headers and compiler caches
 *.pch
+*.gch
+*.ipch
+ipch/
+.cache/
+.ccache/
 
-# Dynamic Libraries
-*.so
-*.dylib
-*.dll
-
-# Static Libraries
+# Compiled libraries
+# Remove relevant rules if you intentionally version prebuilt dependencies.
 *.a
 *.lib
 *.la
 *.lai
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exp
+*.ilk
 
-# Executables
+# Executables and debug symbols
 *.exe
 *.out
-*.app
+*.app/
+*.pdb
+*.dSYM/
+*.elf
+*.map
 
-# =====================================
-# CMake
-# =====================================
+# MSBuild / Visual C++ generated files
+*.tlog/
+*.tlog
+*.lastbuildstate
+*.recipe
+*.exe.manifest
+*.dll.manifest
+*.intermediate.manifest
+*.vcxproj.FileListAbsolute.txt
+*.VC.db
+*.VC.db-*
+*.VC.opendb
+*.sdf
+*.opensdf
 
-cmake-build-*/
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-compile_commands.json
-
-# =====================================
-# JetBrains Rider
-# =====================================
-
-.idea/
-*.iml
-
-# =====================================
-# Visual Studio
-# =====================================
-
+# Visual Studio local state
 .vs/
 *.suo
 *.user
-*.VC.db
-*.VC.opendb
+*.userosscache
+*.sln.docstates
+*.rsuser
 
-# =====================================
-# Debug Files
-# =====================================
+# Rider / JetBrains local state
+.idea/
+*.sln.iml
 
-*.pdb
-*.ilk
-*.idb
+# CMake generated files (keep CMakeLists.txt and CMakePresets.json)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+DartConfiguration.tcl
+Testing/
+install_manifest.txt
+compile_commands.json
+CMakeUserPresets.json
+# Enable only if Makefile is generated:
+# Makefile
 
-# =====================================
-# Temporary Files
-# =====================================
+# Ninja generated files
+.ninja_deps
+.ninja_log
+build.ninja
+rules.ninja
 
+# Profiling and test coverage
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+*.pgc
+*.pgd
+gmon.out
+coverage/
+
+# Package-manager generated files
+vcpkg_installed/
+conanbuildinfo.*
+conaninfo.txt
+conanbuild.sh
+conanbuild.bat
+conanrun.sh
+conanrun.bat
+graph_info.json
+
+# Temporary and backup files
 *.tmp
 *.temp
-*.log
+*.bak
+*.swp
+*.swo
 *~
+
+# OS-generated files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
