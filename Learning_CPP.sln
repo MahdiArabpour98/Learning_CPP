@@ -8,6 +8,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Refrences", "Refrences\Refr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OverloadFunctions", "OverloadFunctions\OverloadFunctions.vcxproj", "{506F2FF9-EEE8-4EF7-BDC5-96CEC144D654}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StructsAndEnums", "StructsAndEnums\StructsAndEnums.vcxproj", "{57AC6D6C-79AE-44C8-A31D-B24D7D659B63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -48,5 +50,13 @@ Global
 		{506F2FF9-EEE8-4EF7-BDC5-96CEC144D654}.Release|Win32.Build.0 = Release|Win32
 		{506F2FF9-EEE8-4EF7-BDC5-96CEC144D654}.Release|x64.ActiveCfg = Release|x64
 		{506F2FF9-EEE8-4EF7-BDC5-96CEC144D654}.Release|x64.Build.0 = Release|x64
+		{57AC6D6C-79AE-44C8-A31D-B24D7D659B63}.Debug|Win32.ActiveCfg = Debug|Win32
+		{57AC6D6C-79AE-44C8-A31D-B24D7D659B63}.Debug|Win32.Build.0 = Debug|Win32
+		{57AC6D6C-79AE-44C8-A31D-B24D7D659B63}.Debug|x64.ActiveCfg = Debug|x64
+		{57AC6D6C-79AE-44C8-A31D-B24D7D659B63}.Debug|x64.Build.0 = Debug|x64
+		{57AC6D6C-79AE-44C8-A31D-B24D7D659B63}.Release|Win32.ActiveCfg = Release|Win32
+		{57AC6D6C-79AE-44C8-A31D-B24D7D659B63}.Release|Win32.Build.0 = Release|Win32
+		{57AC6D6C-79AE-44C8-A31D-B24D7D659B63}.Release|x64.ActiveCfg = Release|x64
+		{57AC6D6C-79AE-44C8-A31D-B24D7D659B63}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
